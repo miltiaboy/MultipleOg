@@ -512,11 +512,11 @@ async def send_all(bot, userid, files):
                             [                            
                             InlineKeyboardButton('🖥 𝗡𝗘𝗪 𝗢𝗧𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🖥', url=f'https://t.me/+XzVIX3lhqzAyYTQ1')
                           ],[     
-                            InlineKeyboardButton('⭕️ 𝐌𝐎𝐕𝐈𝐄 𝐆𝐑𝐎𝐔𝐏 𝐋𝐈𝐍𝐊 ⭕️', url="https://t.me/+etuDM1guIOk1ZWFl"),
+                            InlineKeyboardButton("🖥 𝐎𝐓𝐓 𝐈𝐍𝐒𝐓𝐆𝐑𝐀𝐌 🖥", url='https://www.instagram.com/new_ott__updates?igsh=MTMxcmhwamF4eGp6eg==')
                            ]
                         ]
                     )
-            )
+            )    
         except UserIsBlocked:
             logger.error(f"Usᴇʀ: {userid} ʙʟᴏᴄᴋᴇᴅ ᴛʜᴇ ʙᴏᴛ. Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ!")
             return "Usᴇʀ ɪs ʙʟᴏᴄᴋᴇᴅ ᴛʜᴇ ʙᴏᴛ ! Uɴʙʟᴏᴄᴋ ᴛᴏ sᴇɴᴅ ғɪʟᴇs!"
