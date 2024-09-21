@@ -1,41 +1,41 @@
 class script(object):
     START_TXT = """
-<b>
-𝐻𝑒𝑙𝑙𝑜 👋 {}</b>😍
+<b>𝖧𝖾𝗒 👋 {} 𝖨 𝖠𝗆 <a href=https://t.me/{}>{}</a> 𝖧𝖺𝗉𝗉𝗒 🖤 𝖳𝗈 𝖧𝖺𝗏𝖾 𝖸𝗈𝗎
 
+𝖨 𝖠𝗆 𝖯𝗈𝗐𝖾𝗋 𝖥𝗎𝗅𝗅 𝖠𝗎𝗍𝗈 𝖥𝗂𝗅𝗍𝖾𝗋 + 𝖬𝗈𝗏𝗂𝖾 𝖲𝖾𝖺𝗋𝖼𝗁 + 𝖬𝖺𝗇𝗎𝖺𝗅 𝖥𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍 ⚙
 
-<b>I'ᴍ <a href=https://t.me/{}>{}</a> Yᴏᴜ Cᴀɴ Cᴀʟʟ Mᴇ Aꜱ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ ᴠ1 🫶</b>
+𝖨 𝖠𝗆 𝖠 𝖡𝗈𝗍 𝖯𝗋𝗈𝗏𝗂𝖽𝗂𝗇𝗀 𝖬𝗈𝗏𝗂𝖾𝗌 𝖠𝗇𝖽 𝖲𝖾𝗋𝗂𝖾𝗌 𝖲𝗈 𝖠𝖽𝖽 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖥𝖺𝗆. 𝖳𝗁𝖾𝗇 𝖨 𝖶𝗂𝗅𝗅 𝗌𝖾𝗇𝗍 𝖳𝗁𝖾 𝖬𝗈𝗏𝗂𝖾𝗌⏳
 
-<b>Exᴄʟᴜꜱɪᴠᴇʟʏ Mᴀᴅᴇ Tʜɪꜱ Bᴏᴛ Fᴏʀ <a href=https://t.me/+Q8PH1M-vZzk2YmM1> 𝐆𝐑𝐎𝐔𝐏 </a>..!! 💫</b>
+𝖢𝗅𝗂𝖼𝗄 𝖡𝖾𝗅𝗈𝗐 𝖴𝗌𝖾𝖿𝗎𝗅 𝖡𝗎𝗍𝗍𝗈𝗇𝗌 🫶
 
-<b>📌 Sᴜᴘᴘᴏʀᴛ : <a href=https://t.me/+XzVIX3lhqzAyYTQ1> 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 </a></b>
-
-<b>🍂 Oᴡɴᴇʀ : @tg_tarzan</b>"""
+<blockquote>⚠️ ഈ ബോട്ടിൽ നിന്നും തീയറ്റർ പ്രിന്റുകൾ  മാത്രമേ ലഭിക്കുകയുള്ളൂ..⚡
+             ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇ ᴅᴠᴅ ( ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛ) ꜰɪʟᴇꜱ </blockquote>
+</b>"""
     
     ABOUT_TXT = """<b>🤖 𝑴𝒚 𝑵𝒂𝒎𝒆 : <a href=https://t.me/{}>{}</a>
     
-📝 𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆 : <a href='https://www.python.org/download/releases/3.0/'>𝑷𝒚𝒕𝒉𝒐𝒏</a>
+📝 𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆 : <a href='https://t.me/+JRWRXAzDwkc2NDA1'>𝑷𝒚𝒕𝒉𝒐𝒏</a>
 
-📚 𝑭𝒓𝒂𝒎𝒆𝒘𝒐𝒓𝒌 : <a href='https://docs.pyrogram.org/'>𝑷𝒚𝒓𝒐𝒈𝒓𝒂𝒎</a>
+📚 𝑭𝒓𝒂𝒎𝒆𝒘𝒐𝒓𝒌 : <a href='https://t.me/+uGkuM2x4Bf4yM2Zl'>𝑷𝒚𝒓𝒐𝒈𝒓𝒂𝒎</a>
 
 📡 𝑯𝒐𝒔𝒕𝒆𝒅 𝑶𝒏 : 𝑯𝑬𝑹𝑲𝑼𝑶
 
-👨‍💻 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 : <a href='https://t.me/tg_tarzan'>тαя𝘇αη</a>
+👨‍💻 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 : <a href='http://t.me/MCU_ADMIN_V1_BOT'>𝐍𝐚𝐳𝐫𝐢𝐲𝐚 𝐀𝐝𝐦𝐢𝐧</a>
 
-👥 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑 : <a href=https://t.me/+Q8PH1M-vZzk2YmM1> 𝐆𝐑𝐎𝐔𝐏 </a>
+👥 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑 : <a href=https://t.me/+-Gs3MMJahh8zZmI1> 𝐆𝐑𝐎𝐔𝐏 </a>
 
-📢 𝑼𝒑𝒅𝒂𝒕𝒆 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 : <a href=https://t.me/+XzVIX3lhqzAyYTQ1> 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 </a></b>"""
+📢 𝑼𝒑𝒅𝒂𝒕𝒆 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 : <a href=https://t.me/MCUupdatesLINKS> 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 </a></b>"""
 
     AUTOFILTER_TXT = """<b>
- Bro Or Sis, ഈ ഒരു ബോട്ട് <a href=https://t.me/+Q8PH1M-vZzk2YmM1> 𝐆𝐑𝐎𝐔𝐏 </a> ൻ്റെ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ ᴠ1 ആണ്, ബോട്ട് Owner ഡെ പർമ്മിഷൻ ഇല്ലാതെ മറ്റു ഗ്രൂപ്പുകളിൽ ഒന്നും ഈ ബോട്ടിനെ യൂസ് ചെയ്യാൻ കഴിയില്ല..!!  🤗⚠
+ Bro Or Sis, ഈ ഒരു ബോട്ട് <a href=https://t.me/+UOqKD-B3qutmMmU1> 𝐆𝐑𝐎𝐔𝐏 </a> ൻ്റെ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ ᴠ1 ആണ്, ബോട്ട് Owner ഡെ പർമ്മിഷൻ ഇല്ലാതെ മറ്റു ഗ്രൂപ്പുകളിൽ ഒന്നും ഈ ബോട്ടിനെ യൂസ് ചെയ്യാൻ കഴിയില്ല..!!  🤗⚠
 
-️📌 𝗔𝗻𝘆 𝗛𝗲𝗹𝗽 𝗣𝗹𝗲𝗮𝘀𝗲 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗔𝗱𝗺𝗶𝗻 : @tg_tarzan</b>"""
+️📌 𝗔𝗻𝘆 𝗛𝗲𝗹𝗽 𝗣𝗹𝗲𝗮𝘀𝗲 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗔𝗱𝗺𝗶𝗻 : @MCU_ADMIN_V1_BOT</b>"""
 
     BOTINFO_TXT = """<b>𝖧𝖾𝗒 𝖡𝗋𝗈 𝖨𝖺𝗆 𝖧𝖺𝗉𝗉𝗒 🖤 𝖳𝗈 𝖧𝖺𝗏𝖾 𝖸𝗈𝗎
  
 ✪ സിനിമകൾ ഇഷ്ടപ്പെടുന്നവർക്കും സിനിമ ഡൗൺലോഡ് ചെയ്യുന്നവർക്കും വേണ്ടിയുള്ള മാത്രം ഉള്ള ബോട്ടാണ് ആണിത് 🤩
 
-✫ This bot is only for movie lovers and movie downloaders 🤗
+✫ This bot is only for movie lovers and movie downlors 🤗
 
 ✫ 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖲𝖾𝗇𝖽 𝖡𝗈𝗍 𝖠𝖽𝗆𝗂𝗇 𝖬𝖾𝗌𝗌𝖺𝗀𝖾 𝖥𝗈𝗋 𝖴𝗉𝗅𝗈𝖺𝖽𝗂𝗇𝗀 𝖬𝗈𝗏𝗂𝖾𝗌, 𝖯𝖺𝗂𝖽 𝖯𝗋𝗈𝗆𝗈𝗍𝗂𝗈𝗇 𝖾𝗍𝖼</b>"""
     
@@ -117,14 +117,16 @@ class script(object):
   
     CUSTOM_FILE_CAPTION = """<b>𝐻𝑒𝑙𝑙𝑜 👋 {mention} 😍
 
-📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+{file_name}
 
 ⚙️ Fɪʟᴇ Sɪᴢᴇ :  {file_size}
 
- ╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗
- ♻️ 𝑱𝑶𝑰𝑵 :- <a href=https://t.me/+Q8PH1M-vZzk2YmM1> 𝐆𝐑𝐎𝐔𝐏 </a>
- ♻️ 𝑱𝑶𝑰𝑵 :- <a href=https://t.me/+XzVIX3lhqzAyYTQ1> 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 </a>
- ╚═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╝</b>""" 
+<blockquote>⚠️ ഈ ബോട്ടിൽ നിന്നും തീയറ്റർ പ്രിന്റുകൾ  മാത്രമേ ലഭിക്കുകയുള്ളൂ..⚡
+             ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇ ᴅᴠᴅ ( ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛ) ꜰɪʟᴇꜱ </blockquote>
+             
+╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗
+➲ @MCUupdatesLINKS
+╚═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╝</b>""" 
     
     STATUS_TXT = """📂 𝖳𝗈𝗍𝖺𝗅 𝖥𝗂𝗅𝖾𝗌     - <code>{}</code>
 
