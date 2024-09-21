@@ -18,31 +18,31 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '12618934'))
 API_HASH = environ.get('API_HASH', '49aacd0bc2f8924add29fb02e20c8a16')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6801338071:AAGP1V66uOw8NpSAB1ozgSx4xgudIu58ZYk')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7697119880:AAHE3IXLG_pT3VOYgmcwfVUC3WK7XIZ0THs')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/5de2a87af196bcd866b7f.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/5de2a87af196bcd866b7f.jpg")
-
+PICS = (environ.get('PICS', 'https://telegra.ph/file/39b86f6dc3e12c8976f2b.jpg https://telegra.ph/file/ba3a4e5685ffce4ee9fa2.jpg https://telegra.ph/file/2cad110c8592f881e347d.jpg https://telegra.ph/file/dac6509fb6689e5d8fb75.jpg https://telegra.ph/file/e748da46b2027988f8b01.jpg https://telegra.ph/file/62341d24b79470358f6bd.jpg https://telegra.ph/file/4780d98d162cbad0b49d8.jpg https://telegra.ph/file/8492c75920649eec4c204.jpg https://telegra.ph/file/8492c75920649eec4c204.jpg https://telegra.ph/file/64bc779495cecfe6c707d.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/bba1fba72bed143e8c8be.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/37af06680cbd13176c536.jpg")
 # Admins, Channels & Users
 OWNER_ID = environ.get('OWNER_ID', '7425490417 1509123054')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7425490417 1509123054').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002397004421').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_NAME = environ.get('DATABASE_NAME', "atmanaf")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://atmanaf:atmanaf@cluster0.k4xmqd4.mongodb.net/")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Honeyrose:Honeyrose@cluster0.swp9s0i.mongodb.net/")
-DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://Honerose3:Honerose3@cluster0.hoo2xot.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://Honerose4:Honerose4@cluster0.o6jnjpx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI5 = environ.get('DATABASE_URI5', "mongodb+srv://Honerose5:Honerose5@cluster0.vx5iyut.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "pcmovies")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'leo_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://pcmovies:pcmovies@cluster0.4vv9ebl.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Renamebotv6:Renamebotv6@cluster0.xuqjwfh.mongodb.net/")
+DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://Leachv2:Leachv2@cluster0.4unag2e.mongodb.net/")
+DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://Leachv3:Leachv3@cluster0.rasbnes.mongodb.net/")
+DATABASE_URI5 = environ.get('DATABASE_URI5', "mongodb+srv://Ramanan:Ramanan@cluster0.lvbe2wu.mongodb.net/")
                             
 # FSUB
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -62,7 +62,7 @@ CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CUSTOM_FILE_C
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10 \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
-SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
+SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "False"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
