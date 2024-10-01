@@ -41,7 +41,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Fahadh")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Fahadh:Fahadh@cluster0.cpeyano.mongodb.net/")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://pcmovies:pcmovies@cluster0.4vv9ebl.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://aishwaryv3:aishwaryv3@cluster0.5bipz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://Leachv3:Leachv3@cluster0.rasbnes.mongodb.net/")
 DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://aishwaryv4:aishwaryv4@cluster0.afc1d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI5 = environ.get('DATABASE_URI5', "mongodb+srv://Ramanan:Ramanan@cluster0.lvbe2wu.mongodb.net/")
                             
