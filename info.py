@@ -37,9 +37,9 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_NAME = environ.get('DATABASE_NAME', "Fahadh")
+DATABASE_NAME = environ.get('DATABASE_NAME', "autofilterPredvd")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Fahadh:Fahadh@cluster0.cpeyano.mongodb.net/")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://autofilterPredvd:autofilterPredvd@cluster0.ljo5dnu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://pcmovies:pcmovies@cluster0.4vv9ebl.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://Leachv3:Leachv3@cluster0.rasbnes.mongodb.net/")
 DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://Leachv3:Leachv3@cluster0.rasbnes.mongodb.net")
