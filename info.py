@@ -37,9 +37,9 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_NAME = environ.get('DATABASE_NAME', "autofilterPredvd")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'leo_files')
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://autofilterPredvd:autofilterPredvd@cluster0.ljo5dnu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Fahadh")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Fahadh:Fahadh@cluster0.cpeyano.mongodb.net/")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://aishwaryv2:aishwaryv2@cluster0.fmybj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://aishwaryv3:aishwaryv3@cluster0.5bipz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://aishwaryv4:aishwaryv4@cluster0.afc1d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
