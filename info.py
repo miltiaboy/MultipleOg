@@ -42,8 +42,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://autofilterPredvd:autofilterPredvd@cluster0.ljo5dnu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://aishwaryv2:aishwaryv2@cluster0.fmybj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://Leachv3:Leachv3@cluster0.rasbnes.mongodb.net/")
-DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://Leachv3:Leachv3@cluster0.rasbnes.mongodb.net")
-DATABASE_URI5 = environ.get('DATABASE_URI5', "mongodb+srv://Ramanan:Ramanan@cluster0.lvbe2wu.mongodb.net/")
+DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://aishwaryv4:aishwaryv4@cluster0.afc1d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI5 = environ.get('DATABASE_URI5', "mongodb+srv://aishwaryv5:aishwaryv5@cluster0.dbh3b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
                             
 # FSUB
 auth_channel = environ.get('AUTH_CHANNEL')
