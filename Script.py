@@ -118,8 +118,6 @@ class script(object):
 
 {file_name}
 
-⚙️ Fɪʟᴇ Sɪᴢᴇ :  {file_size}
-
 <blockquote>⚠️ ഈ ബോട്ടിൽ നിന്നും തീയറ്റർ പ്രിന്റുകൾ  മാത്രമേ ലഭിക്കുകയുള്ളൂ..⚡</blockquote>
              
 ╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗
