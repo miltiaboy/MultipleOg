@@ -18,7 +18,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '12618934'))
 API_HASH = environ.get('API_HASH', '49aacd0bc2f8924add29fb02e20c8a16')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7806848011:AAGkAF_YP9ZIn469DJRszQfq-GOSC0DE9Bs')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7272188047:AAGEI5z5V95KsOiS98ZL4GmKD7kHgNIqQyc')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -49,12 +49,12 @@ DATABASE_URI5 = environ.get('DATABASE_URI5', "mongodb+srv://aishwaryv5:aishwaryv
 auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
-REQ_CHANNEL=environ.get("REQ_CHANNEL", None)
-REQ_CHANNEL = (int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False) if REQ_CHANNEL is not None else None
+REQ_CHANNEL = environ.get("REQ_CHANNEL", False)
+REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002276401285'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002316234745'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MCU_MOVIES')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'False')), False)
 IMDB = is_enabled((environ.get('IMDB', 'False')), False)
